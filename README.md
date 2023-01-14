@@ -1,25 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # login_app
+
+## gem追加後(https://qiita.com/taki_21/items/cc8bc157d5742294ec98)
+```
+$ rails g devise:install
+```
+メッセージでの追加修正後
+```
+$ rails g devise user
+```
